@@ -1,0 +1,501 @@
+timestamp,note,actual_cat,clean_note
+2024-01-01,routine inspection,Noise,routine inspection
+2024-01-01,discussed with shift lead,Noise,discussed with shift lead
+2024-01-01,short circuit detected,Electrical,short circuit detected
+2024-01-01,cleaned workstation,Noise,cleaned workstation
+2024-01-01,wiring frayed on motor,Electrical,wiring frayed on motor
+2024-01-01,blown fuse in panel B,Electrical,blown fuse in panel b
+2024-01-01,discussed with shift lead,Noise,discussed with shift lead
+2024-01-01,routine inspection,Noise,routine inspection
+2024-01-01,hydr leak on joint,Hydraulic,hydraulic leak on joint
+2024-01-01,short circuit detected,Electrical,short circuit detected
+2024-01-01,blown fuse in panel B,Electrical,blown fuse in panel b
+2024-01-01,bearing noisy,Mechanical,bearing noise
+2024-01-01,discussed with shift lead,Noise,discussed with shift lead
+2024-01-02,wiring frayed on motor,Electrical,wiring frayed on motor
+2024-01-02,piston pressure low,Hydraulic,piston pressure low
+2024-01-02,short circuit detected,Electrical,short circuit detected
+2024-01-02,bearing noisy,Mechanical,bearing noise
+2024-01-02,piston pressure low,Hydraulic,piston pressure low
+2024-01-02,bearing noisy,Mechanical,bearing noise
+2024-01-02,wiring frayed on motor,Electrical,wiring frayed on motor
+2024-01-02,cleaned workstation,Noise,cleaned workstation
+2024-01-02,hydr leak on joint,Hydraulic,hydraulic leak on joint
+2024-01-02,cleaned workstation,Noise,cleaned workstation
+2024-01-02,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-02,gearbox metal shavings found,Mechanical,gearbox metal shavings found
+2024-01-02,discussed with shift lead,Noise,discussed with shift lead
+2024-01-02,short circuit detected,Electrical,short circuit detected
+2024-01-02,discussed with shift lead,Noise,discussed with shift lead
+2024-01-02,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-02,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-02,routine inspection,Noise,routine inspection
+2024-01-02,gearbox metal shavings found,Mechanical,gearbox metal shavings found
+2024-01-03,discussed with shift lead,Noise,discussed with shift lead
+2024-01-03,blown fuse in panel B,Electrical,blown fuse in panel b
+2024-01-03,cleaned workstation,Noise,cleaned workstation
+2024-01-03,cleaned workstation,Noise,cleaned workstation
+2024-01-03,short circuit detected,Electrical,short circuit detected
+2024-01-03,routine inspection,Noise,routine inspection
+2024-01-03,piston pressure low,Hydraulic,piston pressure low
+2024-01-03,discussed with shift lead,Noise,discussed with shift lead
+2024-01-03,vibr in main drive,Mechanical,vibration in main drive
+2024-01-03,discussed with shift lead,Noise,discussed with shift lead
+2024-01-03,blown fuse in panel B,Electrical,blown fuse in panel b
+2024-01-03,vibr in main drive,Mechanical,vibration in main drive
+2024-01-03,routine inspection,Noise,routine inspection
+2024-01-03,routine inspection,Noise,routine inspection
+2024-01-03,cleaned workstation,Noise,cleaned workstation
+2024-01-03,discussed with shift lead,Noise,discussed with shift lead
+2024-01-03,discussed with shift lead,Noise,discussed with shift lead
+2024-01-03,wiring frayed on motor,Electrical,wiring frayed on motor
+2024-01-03,vibr in main drive,Mechanical,vibration in main drive
+2024-01-03,discussed with shift lead,Noise,discussed with shift lead
+2024-01-03,hydr leak on joint,Hydraulic,hydraulic leak on joint
+2024-01-04,blown fuse in panel B,Electrical,blown fuse in panel b
+2024-01-04,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-04,discussed with shift lead,Noise,discussed with shift lead
+2024-01-04,gearbox metal shavings found,Mechanical,gearbox metal shavings found
+2024-01-04,piston pressure low,Hydraulic,piston pressure low
+2024-01-04,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-04,wiring frayed on motor,Electrical,wiring frayed on motor
+2024-01-04,wiring frayed on motor,Electrical,wiring frayed on motor
+2024-01-04,piston pressure low,Hydraulic,piston pressure low
+2024-01-04,vibr in main drive,Mechanical,vibration in main drive
+2024-01-04,discussed with shift lead,Noise,discussed with shift lead
+2024-01-04,hydr leak on joint,Hydraulic,hydraulic leak on joint
+2024-01-05,vibr in main drive,Mechanical,vibration in main drive
+2024-01-05,wiring frayed on motor,Electrical,wiring frayed on motor
+2024-01-05,piston pressure low,Hydraulic,piston pressure low
+2024-01-05,hydr leak on joint,Hydraulic,hydraulic leak on joint
+2024-01-05,short circuit detected,Electrical,short circuit detected
+2024-01-05,cleaned workstation,Noise,cleaned workstation
+2024-01-05,gearbox metal shavings found,Mechanical,gearbox metal shavings found
+2024-01-05,cleaned workstation,Noise,cleaned workstation
+2024-01-05,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-05,gearbox metal shavings found,Mechanical,gearbox metal shavings found
+2024-01-05,short circuit detected,Electrical,short circuit detected
+2024-01-05,bearing noisy,Mechanical,bearing noise
+2024-01-05,short circuit detected,Electrical,short circuit detected
+2024-01-05,blown fuse in panel B,Electrical,blown fuse in panel b
+2024-01-05,cleaned workstation,Noise,cleaned workstation
+2024-01-05,blown fuse in panel B,Electrical,blown fuse in panel b
+2024-01-05,vibr in main drive,Mechanical,vibration in main drive
+2024-01-05,wiring frayed on motor,Electrical,wiring frayed on motor
+2024-01-05,cleaned workstation,Noise,cleaned workstation
+2024-01-05,routine inspection,Noise,routine inspection
+2024-01-05,hydr leak on joint,Hydraulic,hydraulic leak on joint
+2024-01-05,routine inspection,Noise,routine inspection
+2024-01-05,piston pressure low,Hydraulic,piston pressure low
+2024-01-05,bearing noisy,Mechanical,bearing noise
+2024-01-05,vibr in main drive,Mechanical,vibration in main drive
+2024-01-05,bearing noisy,Mechanical,bearing noise
+2024-01-06,discussed with shift lead,Noise,discussed with shift lead
+2024-01-06,hydr leak on joint,Hydraulic,hydraulic leak on joint
+2024-01-06,gearbox metal shavings found,Mechanical,gearbox metal shavings found
+2024-01-06,routine inspection,Noise,routine inspection
+2024-01-06,cleaned workstation,Noise,cleaned workstation
+2024-01-06,routine inspection,Noise,routine inspection
+2024-01-06,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-06,cleaned workstation,Noise,cleaned workstation
+2024-01-06,cleaned workstation,Noise,cleaned workstation
+2024-01-06,discussed with shift lead,Noise,discussed with shift lead
+2024-01-06,bearing noisy,Mechanical,bearing noise
+2024-01-06,gearbox metal shavings found,Mechanical,gearbox metal shavings found
+2024-01-06,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-06,wiring frayed on motor,Electrical,wiring frayed on motor
+2024-01-06,wiring frayed on motor,Electrical,wiring frayed on motor
+2024-01-06,gearbox metal shavings found,Mechanical,gearbox metal shavings found
+2024-01-06,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-06,wiring frayed on motor,Electrical,wiring frayed on motor
+2024-01-06,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-06,hydr leak on joint,Hydraulic,hydraulic leak on joint
+2024-01-07,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-07,bearing noisy,Mechanical,bearing noise
+2024-01-07,short circuit detected,Electrical,short circuit detected
+2024-01-07,wiring frayed on motor,Electrical,wiring frayed on motor
+2024-01-07,bearing noisy,Mechanical,bearing noise
+2024-01-07,cleaned workstation,Noise,cleaned workstation
+2024-01-07,blown fuse in panel B,Electrical,blown fuse in panel b
+2024-01-07,discussed with shift lead,Noise,discussed with shift lead
+2024-01-07,routine inspection,Noise,routine inspection
+2024-01-07,wiring frayed on motor,Electrical,wiring frayed on motor
+2024-01-07,cleaned workstation,Noise,cleaned workstation
+2024-01-07,gearbox metal shavings found,Mechanical,gearbox metal shavings found
+2024-01-08,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-08,bearing noisy,Mechanical,bearing noise
+2024-01-08,short circuit detected,Electrical,short circuit detected
+2024-01-08,routine inspection,Noise,routine inspection
+2024-01-08,piston pressure low,Hydraulic,piston pressure low
+2024-01-08,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-08,blown fuse in panel B,Electrical,blown fuse in panel b
+2024-01-08,hydr leak on joint,Hydraulic,hydraulic leak on joint
+2024-01-08,cleaned workstation,Noise,cleaned workstation
+2024-01-08,routine inspection,Noise,routine inspection
+2024-01-08,blown fuse in panel B,Electrical,blown fuse in panel b
+2024-01-08,cleaned workstation,Noise,cleaned workstation
+2024-01-08,blown fuse in panel B,Electrical,blown fuse in panel b
+2024-01-08,cleaned workstation,Noise,cleaned workstation
+2024-01-08,wiring frayed on motor,Electrical,wiring frayed on motor
+2024-01-09,short circuit detected,Electrical,short circuit detected
+2024-01-09,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-09,hydr leak on joint,Hydraulic,hydraulic leak on joint
+2024-01-09,piston pressure low,Hydraulic,piston pressure low
+2024-01-09,short circuit detected,Electrical,short circuit detected
+2024-01-09,short circuit detected,Electrical,short circuit detected
+2024-01-09,bearing noisy,Mechanical,bearing noise
+2024-01-09,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-09,wiring frayed on motor,Electrical,wiring frayed on motor
+2024-01-09,gearbox metal shavings found,Mechanical,gearbox metal shavings found
+2024-01-09,wiring frayed on motor,Electrical,wiring frayed on motor
+2024-01-09,blown fuse in panel B,Electrical,blown fuse in panel b
+2024-01-09,cleaned workstation,Noise,cleaned workstation
+2024-01-09,cleaned workstation,Noise,cleaned workstation
+2024-01-09,piston pressure low,Hydraulic,piston pressure low
+2024-01-09,cleaned workstation,Noise,cleaned workstation
+2024-01-09,wiring frayed on motor,Electrical,wiring frayed on motor
+2024-01-10,vibr in main drive,Mechanical,vibration in main drive
+2024-01-10,cleaned workstation,Noise,cleaned workstation
+2024-01-10,short circuit detected,Electrical,short circuit detected
+2024-01-10,discussed with shift lead,Noise,discussed with shift lead
+2024-01-10,short circuit detected,Electrical,short circuit detected
+2024-01-10,discussed with shift lead,Noise,discussed with shift lead
+2024-01-10,discussed with shift lead,Noise,discussed with shift lead
+2024-01-10,cleaned workstation,Noise,cleaned workstation
+2024-01-10,gearbox metal shavings found,Mechanical,gearbox metal shavings found
+2024-01-10,hydr leak on joint,Hydraulic,hydraulic leak on joint
+2024-01-10,short circuit detected,Electrical,short circuit detected
+2024-01-10,gearbox metal shavings found,Mechanical,gearbox metal shavings found
+2024-01-10,short circuit detected,Electrical,short circuit detected
+2024-01-11,short circuit detected,Electrical,short circuit detected
+2024-01-11,routine inspection,Noise,routine inspection
+2024-01-11,discussed with shift lead,Noise,discussed with shift lead
+2024-01-11,blown fuse in panel B,Electrical,blown fuse in panel b
+2024-01-11,bearing noisy,Mechanical,bearing noise
+2024-01-11,wiring frayed on motor,Electrical,wiring frayed on motor
+2024-01-11,blown fuse in panel B,Electrical,blown fuse in panel b
+2024-01-11,discussed with shift lead,Noise,discussed with shift lead
+2024-01-11,routine inspection,Noise,routine inspection
+2024-01-11,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-11,vibr in main drive,Mechanical,vibration in main drive
+2024-01-11,hydr leak on joint,Hydraulic,hydraulic leak on joint
+2024-01-11,routine inspection,Noise,routine inspection
+2024-01-11,cleaned workstation,Noise,cleaned workstation
+2024-01-11,cleaned workstation,Noise,cleaned workstation
+2024-01-11,cleaned workstation,Noise,cleaned workstation
+2024-01-11,gearbox metal shavings found,Mechanical,gearbox metal shavings found
+2024-01-11,short circuit detected,Electrical,short circuit detected
+2024-01-11,piston pressure low,Hydraulic,piston pressure low
+2024-01-11,routine inspection,Noise,routine inspection
+2024-01-11,cleaned workstation,Noise,cleaned workstation
+2024-01-11,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-12,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-12,routine inspection,Noise,routine inspection
+2024-01-12,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-12,routine inspection,Noise,routine inspection
+2024-01-12,bearing noisy,Mechanical,bearing noise
+2024-01-12,short circuit detected,Electrical,short circuit detected
+2024-01-12,short circuit detected,Electrical,short circuit detected
+2024-01-12,routine inspection,Noise,routine inspection
+2024-01-12,discussed with shift lead,Noise,discussed with shift lead
+2024-01-12,cleaned workstation,Noise,cleaned workstation
+2024-01-12,wiring frayed on motor,Electrical,wiring frayed on motor
+2024-01-12,wiring frayed on motor,Electrical,wiring frayed on motor
+2024-01-12,vibr in main drive,Mechanical,vibration in main drive
+2024-01-12,hydr leak on joint,Hydraulic,hydraulic leak on joint
+2024-01-12,cleaned workstation,Noise,cleaned workstation
+2024-01-12,gearbox metal shavings found,Mechanical,gearbox metal shavings found
+2024-01-12,cleaned workstation,Noise,cleaned workstation
+2024-01-12,discussed with shift lead,Noise,discussed with shift lead
+2024-01-13,wiring frayed on motor,Electrical,wiring frayed on motor
+2024-01-13,bearing noisy,Mechanical,bearing noise
+2024-01-13,bearing noisy,Mechanical,bearing noise
+2024-01-13,hydr leak on joint,Hydraulic,hydraulic leak on joint
+2024-01-13,routine inspection,Noise,routine inspection
+2024-01-13,gearbox metal shavings found,Mechanical,gearbox metal shavings found
+2024-01-13,routine inspection,Noise,routine inspection
+2024-01-13,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-13,discussed with shift lead,Noise,discussed with shift lead
+2024-01-13,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-13,gearbox metal shavings found,Mechanical,gearbox metal shavings found
+2024-01-13,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-13,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-13,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-13,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-13,gearbox metal shavings found,Mechanical,gearbox metal shavings found
+2024-01-13,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-13,discussed with shift lead,Noise,discussed with shift lead
+2024-01-13,cleaned workstation,Noise,cleaned workstation
+2024-01-13,discussed with shift lead,Noise,discussed with shift lead
+2024-01-14,routine inspection,Noise,routine inspection
+2024-01-14,bearing noisy,Mechanical,bearing noise
+2024-01-14,hydr leak on joint,Hydraulic,hydraulic leak on joint
+2024-01-14,piston pressure low,Hydraulic,piston pressure low
+2024-01-14,routine inspection,Noise,routine inspection
+2024-01-14,gearbox metal shavings found,Mechanical,gearbox metal shavings found
+2024-01-14,piston pressure low,Hydraulic,piston pressure low
+2024-01-14,bearing noisy,Mechanical,bearing noise
+2024-01-14,wiring frayed on motor,Electrical,wiring frayed on motor
+2024-01-14,short circuit detected,Electrical,short circuit detected
+2024-01-14,gearbox metal shavings found,Mechanical,gearbox metal shavings found
+2024-01-14,wiring frayed on motor,Electrical,wiring frayed on motor
+2024-01-14,piston pressure low,Hydraulic,piston pressure low
+2024-01-14,routine inspection,Noise,routine inspection
+2024-01-14,piston pressure low,Hydraulic,piston pressure low
+2024-01-14,wiring frayed on motor,Electrical,wiring frayed on motor
+2024-01-14,discussed with shift lead,Noise,discussed with shift lead
+2024-01-14,gearbox metal shavings found,Mechanical,gearbox metal shavings found
+2024-01-14,short circuit detected,Electrical,short circuit detected
+2024-01-14,blown fuse in panel B,Electrical,blown fuse in panel b
+2024-01-14,gearbox metal shavings found,Mechanical,gearbox metal shavings found
+2024-01-14,short circuit detected,Electrical,short circuit detected
+2024-01-15,routine inspection,Noise,routine inspection
+2024-01-15,wiring frayed on motor,Electrical,wiring frayed on motor
+2024-01-15,routine inspection,Noise,routine inspection
+2024-01-15,blown fuse in panel B,Electrical,blown fuse in panel b
+2024-01-15,short circuit detected,Electrical,short circuit detected
+2024-01-15,cleaned workstation,Noise,cleaned workstation
+2024-01-15,vibr in main drive,Mechanical,vibration in main drive
+2024-01-15,routine inspection,Noise,routine inspection
+2024-01-15,piston pressure low,Hydraulic,piston pressure low
+2024-01-15,cleaned workstation,Noise,cleaned workstation
+2024-01-15,routine inspection,Noise,routine inspection
+2024-01-15,discussed with shift lead,Noise,discussed with shift lead
+2024-01-16,short circuit detected,Electrical,short circuit detected
+2024-01-16,hydr leak on joint,Hydraulic,hydraulic leak on joint
+2024-01-16,short circuit detected,Electrical,short circuit detected
+2024-01-16,wiring frayed on motor,Electrical,wiring frayed on motor
+2024-01-16,discussed with shift lead,Noise,discussed with shift lead
+2024-01-16,short circuit detected,Electrical,short circuit detected
+2024-01-16,routine inspection,Noise,routine inspection
+2024-01-16,vibr in main drive,Mechanical,vibration in main drive
+2024-01-16,routine inspection,Noise,routine inspection
+2024-01-16,vibr in main drive,Mechanical,vibration in main drive
+2024-01-16,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-16,short circuit detected,Electrical,short circuit detected
+2024-01-16,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-16,wiring frayed on motor,Electrical,wiring frayed on motor
+2024-01-16,blown fuse in panel B,Electrical,blown fuse in panel b
+2024-01-16,routine inspection,Noise,routine inspection
+2024-01-16,routine inspection,Noise,routine inspection
+2024-01-16,gearbox metal shavings found,Mechanical,gearbox metal shavings found
+2024-01-16,wiring frayed on motor,Electrical,wiring frayed on motor
+2024-01-16,cleaned workstation,Noise,cleaned workstation
+2024-01-16,routine inspection,Noise,routine inspection
+2024-01-16,piston pressure low,Hydraulic,piston pressure low
+2024-01-17,cleaned workstation,Noise,cleaned workstation
+2024-01-17,routine inspection,Noise,routine inspection
+2024-01-17,routine inspection,Noise,routine inspection
+2024-01-17,discussed with shift lead,Noise,discussed with shift lead
+2024-01-17,cleaned workstation,Noise,cleaned workstation
+2024-01-17,blown fuse in panel B,Electrical,blown fuse in panel b
+2024-01-17,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-17,wiring frayed on motor,Electrical,wiring frayed on motor
+2024-01-17,cleaned workstation,Noise,cleaned workstation
+2024-01-17,discussed with shift lead,Noise,discussed with shift lead
+2024-01-17,hydr leak on joint,Hydraulic,hydraulic leak on joint
+2024-01-17,blown fuse in panel B,Electrical,blown fuse in panel b
+2024-01-17,piston pressure low,Hydraulic,piston pressure low
+2024-01-17,cleaned workstation,Noise,cleaned workstation
+2024-01-17,cleaned workstation,Noise,cleaned workstation
+2024-01-17,cleaned workstation,Noise,cleaned workstation
+2024-01-17,vibr in main drive,Mechanical,vibration in main drive
+2024-01-17,short circuit detected,Electrical,short circuit detected
+2024-01-18,vibr in main drive,Mechanical,vibration in main drive
+2024-01-18,discussed with shift lead,Noise,discussed with shift lead
+2024-01-18,bearing noisy,Mechanical,bearing noise
+2024-01-18,piston pressure low,Hydraulic,piston pressure low
+2024-01-18,wiring frayed on motor,Electrical,wiring frayed on motor
+2024-01-18,discussed with shift lead,Noise,discussed with shift lead
+2024-01-18,bearing noisy,Mechanical,bearing noise
+2024-01-18,gearbox metal shavings found,Mechanical,gearbox metal shavings found
+2024-01-18,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-18,wiring frayed on motor,Electrical,wiring frayed on motor
+2024-01-18,bearing noisy,Mechanical,bearing noise
+2024-01-18,gearbox metal shavings found,Mechanical,gearbox metal shavings found
+2024-01-18,cleaned workstation,Noise,cleaned workstation
+2024-01-18,blown fuse in panel B,Electrical,blown fuse in panel b
+2024-01-18,cleaned workstation,Noise,cleaned workstation
+2024-01-18,discussed with shift lead,Noise,discussed with shift lead
+2024-01-18,routine inspection,Noise,routine inspection
+2024-01-18,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-18,wiring frayed on motor,Electrical,wiring frayed on motor
+2024-01-18,discussed with shift lead,Noise,discussed with shift lead
+2024-01-18,blown fuse in panel B,Electrical,blown fuse in panel b
+2024-01-18,discussed with shift lead,Noise,discussed with shift lead
+2024-01-18,cleaned workstation,Noise,cleaned workstation
+2024-01-18,cleaned workstation,Noise,cleaned workstation
+2024-01-19,cleaned workstation,Noise,cleaned workstation
+2024-01-19,routine inspection,Noise,routine inspection
+2024-01-19,discussed with shift lead,Noise,discussed with shift lead
+2024-01-19,short circuit detected,Electrical,short circuit detected
+2024-01-19,hydr leak on joint,Hydraulic,hydraulic leak on joint
+2024-01-19,blown fuse in panel B,Electrical,blown fuse in panel b
+2024-01-19,gearbox metal shavings found,Mechanical,gearbox metal shavings found
+2024-01-19,hydr leak on joint,Hydraulic,hydraulic leak on joint
+2024-01-19,routine inspection,Noise,routine inspection
+2024-01-19,piston pressure low,Hydraulic,piston pressure low
+2024-01-19,piston pressure low,Hydraulic,piston pressure low
+2024-01-19,discussed with shift lead,Noise,discussed with shift lead
+2024-01-19,discussed with shift lead,Noise,discussed with shift lead
+2024-01-19,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-19,routine inspection,Noise,routine inspection
+2024-01-20,vibr in main drive,Mechanical,vibration in main drive
+2024-01-20,routine inspection,Noise,routine inspection
+2024-01-20,wiring frayed on motor,Electrical,wiring frayed on motor
+2024-01-20,discussed with shift lead,Noise,discussed with shift lead
+2024-01-20,routine inspection,Noise,routine inspection
+2024-01-20,blown fuse in panel B,Electrical,blown fuse in panel b
+2024-01-20,vibr in main drive,Mechanical,vibration in main drive
+2024-01-20,gearbox metal shavings found,Mechanical,gearbox metal shavings found
+2024-01-20,piston pressure low,Hydraulic,piston pressure low
+2024-01-20,gearbox metal shavings found,Mechanical,gearbox metal shavings found
+2024-01-20,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-20,hydr leak on joint,Hydraulic,hydraulic leak on joint
+2024-01-20,hydr leak on joint,Hydraulic,hydraulic leak on joint
+2024-01-20,routine inspection,Noise,routine inspection
+2024-01-20,short circuit detected,Electrical,short circuit detected
+2024-01-20,blown fuse in panel B,Electrical,blown fuse in panel b
+2024-01-20,routine inspection,Noise,routine inspection
+2024-01-20,cleaned workstation,Noise,cleaned workstation
+2024-01-21,hydr leak on joint,Hydraulic,hydraulic leak on joint
+2024-01-21,bearing noisy,Mechanical,bearing noise
+2024-01-21,cleaned workstation,Noise,cleaned workstation
+2024-01-21,vibr in main drive,Mechanical,vibration in main drive
+2024-01-21,hydr leak on joint,Hydraulic,hydraulic leak on joint
+2024-01-21,routine inspection,Noise,routine inspection
+2024-01-21,cleaned workstation,Noise,cleaned workstation
+2024-01-21,hydr leak on joint,Hydraulic,hydraulic leak on joint
+2024-01-21,wiring frayed on motor,Electrical,wiring frayed on motor
+2024-01-21,routine inspection,Noise,routine inspection
+2024-01-21,hydr leak on joint,Hydraulic,hydraulic leak on joint
+2024-01-21,vibr in main drive,Mechanical,vibration in main drive
+2024-01-21,routine inspection,Noise,routine inspection
+2024-01-21,discussed with shift lead,Noise,discussed with shift lead
+2024-01-21,wiring frayed on motor,Electrical,wiring frayed on motor
+2024-01-21,discussed with shift lead,Noise,discussed with shift lead
+2024-01-21,wiring frayed on motor,Electrical,wiring frayed on motor
+2024-01-21,routine inspection,Noise,routine inspection
+2024-01-22,cleaned workstation,Noise,cleaned workstation
+2024-01-22,piston pressure low,Hydraulic,piston pressure low
+2024-01-22,cleaned workstation,Noise,cleaned workstation
+2024-01-22,short circuit detected,Electrical,short circuit detected
+2024-01-22,cleaned workstation,Noise,cleaned workstation
+2024-01-22,discussed with shift lead,Noise,discussed with shift lead
+2024-01-22,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-22,discussed with shift lead,Noise,discussed with shift lead
+2024-01-22,wiring frayed on motor,Electrical,wiring frayed on motor
+2024-01-22,gearbox metal shavings found,Mechanical,gearbox metal shavings found
+2024-01-22,hydr leak on joint,Hydraulic,hydraulic leak on joint
+2024-01-22,routine inspection,Noise,routine inspection
+2024-01-22,wiring frayed on motor,Electrical,wiring frayed on motor
+2024-01-22,routine inspection,Noise,routine inspection
+2024-01-22,cleaned workstation,Noise,cleaned workstation
+2024-01-22,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-22,routine inspection,Noise,routine inspection
+2024-01-22,wiring frayed on motor,Electrical,wiring frayed on motor
+2024-01-22,hydr leak on joint,Hydraulic,hydraulic leak on joint
+2024-01-22,hydr leak on joint,Hydraulic,hydraulic leak on joint
+2024-01-22,discussed with shift lead,Noise,discussed with shift lead
+2024-01-22,bearing noisy,Mechanical,bearing noise
+2024-01-22,vibr in main drive,Mechanical,vibration in main drive
+2024-01-22,routine inspection,Noise,routine inspection
+2024-01-22,cleaned workstation,Noise,cleaned workstation
+2024-01-23,cleaned workstation,Noise,cleaned workstation
+2024-01-23,cleaned workstation,Noise,cleaned workstation
+2024-01-23,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-23,piston pressure low,Hydraulic,piston pressure low
+2024-01-23,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-23,routine inspection,Noise,routine inspection
+2024-01-23,bearing noisy,Mechanical,bearing noise
+2024-01-23,short circuit detected,Electrical,short circuit detected
+2024-01-23,short circuit detected,Electrical,short circuit detected
+2024-01-23,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-23,routine inspection,Noise,routine inspection
+2024-01-23,wiring frayed on motor,Electrical,wiring frayed on motor
+2024-01-23,routine inspection,Noise,routine inspection
+2024-01-23,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-23,hydr leak on joint,Hydraulic,hydraulic leak on joint
+2024-01-24,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-24,routine inspection,Noise,routine inspection
+2024-01-24,routine inspection,Noise,routine inspection
+2024-01-24,bearing noisy,Mechanical,bearing noise
+2024-01-24,cleaned workstation,Noise,cleaned workstation
+2024-01-24,short circuit detected,Electrical,short circuit detected
+2024-01-24,discussed with shift lead,Noise,discussed with shift lead
+2024-01-24,vibr in main drive,Mechanical,vibration in main drive
+2024-01-24,discussed with shift lead,Noise,discussed with shift lead
+2024-01-24,discussed with shift lead,Noise,discussed with shift lead
+2024-01-24,routine inspection,Noise,routine inspection
+2024-01-24,wiring frayed on motor,Electrical,wiring frayed on motor
+2024-01-24,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-24,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-24,wiring frayed on motor,Electrical,wiring frayed on motor
+2024-01-25,short circuit detected,Electrical,short circuit detected
+2024-01-25,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-25,routine inspection,Noise,routine inspection
+2024-01-25,blown fuse in panel B,Electrical,blown fuse in panel b
+2024-01-25,blown fuse in panel B,Electrical,blown fuse in panel b
+2024-01-25,short circuit detected,Electrical,short circuit detected
+2024-01-25,bearing noisy,Mechanical,bearing noise
+2024-01-25,vibr in main drive,Mechanical,vibration in main drive
+2024-01-25,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-25,discussed with shift lead,Noise,discussed with shift lead
+2024-01-25,blown fuse in panel B,Electrical,blown fuse in panel b
+2024-01-25,piston pressure low,Hydraulic,piston pressure low
+2024-01-25,vibr in main drive,Mechanical,vibration in main drive
+2024-01-25,routine inspection,Noise,routine inspection
+2024-01-25,discussed with shift lead,Noise,discussed with shift lead
+2024-01-25,discussed with shift lead,Noise,discussed with shift lead
+2024-01-25,cleaned workstation,Noise,cleaned workstation
+2024-01-25,routine inspection,Noise,routine inspection
+2024-01-25,discussed with shift lead,Noise,discussed with shift lead
+2024-01-26,gearbox metal shavings found,Mechanical,gearbox metal shavings found
+2024-01-26,gearbox metal shavings found,Mechanical,gearbox metal shavings found
+2024-01-26,blown fuse in panel B,Electrical,blown fuse in panel b
+2024-01-26,blown fuse in panel B,Electrical,blown fuse in panel b
+2024-01-26,blown fuse in panel B,Electrical,blown fuse in panel b
+2024-01-26,gearbox metal shavings found,Mechanical,gearbox metal shavings found
+2024-01-26,routine inspection,Noise,routine inspection
+2024-01-26,piston pressure low,Hydraulic,piston pressure low
+2024-01-26,wiring frayed on motor,Electrical,wiring frayed on motor
+2024-01-26,routine inspection,Noise,routine inspection
+2024-01-26,cleaned workstation,Noise,cleaned workstation
+2024-01-26,bearing noisy,Mechanical,bearing noise
+2024-01-26,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-26,discussed with shift lead,Noise,discussed with shift lead
+2024-01-26,short circuit detected,Electrical,short circuit detected
+2024-01-26,discussed with shift lead,Noise,discussed with shift lead
+2024-01-27,short circuit detected,Electrical,short circuit detected
+2024-01-27,routine inspection,Noise,routine inspection
+2024-01-27,cleaned workstation,Noise,cleaned workstation
+2024-01-27,gearbox metal shavings found,Mechanical,gearbox metal shavings found
+2024-01-27,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-27,short circuit detected,Electrical,short circuit detected
+2024-01-27,gearbox metal shavings found,Mechanical,gearbox metal shavings found
+2024-01-27,routine inspection,Noise,routine inspection
+2024-01-27,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-27,routine inspection,Noise,routine inspection
+2024-01-27,hydr leak on joint,Hydraulic,hydraulic leak on joint
+2024-01-27,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-27,piston pressure low,Hydraulic,piston pressure low
+2024-01-27,wiring frayed on motor,Electrical,wiring frayed on motor
+2024-01-27,short circuit detected,Electrical,short circuit detected
+2024-01-28,hydr leak on joint,Hydraulic,hydraulic leak on joint
+2024-01-28,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-28,discussed with shift lead,Noise,discussed with shift lead
+2024-01-28,gearbox metal shavings found,Mechanical,gearbox metal shavings found
+2024-01-28,routine inspection,Noise,routine inspection
+2024-01-28,cleaned workstation,Noise,cleaned workstation
+2024-01-28,hydr leak on joint,Hydraulic,hydraulic leak on joint
+2024-01-28,wiring frayed on motor,Electrical,wiring frayed on motor
+2024-01-28,cleaned workstation,Noise,cleaned workstation
+2024-01-28,seal repl in hydr system,Hydraulic,seal replace in hydraulic system
+2024-01-28,piston pressure low,Hydraulic,piston pressure low
+2024-01-28,routine inspection,Noise,routine inspection
+2024-01-28,short circuit detected,Electrical,short circuit detected
+2024-01-28,bearing noisy,Mechanical,bearing noise
+2024-01-28,short circuit detected,Electrical,short circuit detected
+2024-01-28,cleaned workstation,Noise,cleaned workstation
+2024-01-28,bearing noisy,Mechanical,bearing noise
+2024-01-28,vibr in main drive,Mechanical,vibration in main drive
