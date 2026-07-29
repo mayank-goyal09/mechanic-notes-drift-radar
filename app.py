@@ -18,14 +18,17 @@ st.set_page_config(
     page_title="Machine Error Detection Dashboard",
     page_icon="🏭",
     layout="wide",
-    initial_sidebar_state="expanded"
+    initial_sidebar_state="collapsed"
 )
 
-# Premium Custom CSS (Dark Theme, Glassmorphism, Neon Accents)
+# Premium Custom CSS (Dark Theme, Glassmorphism, Neon Accents, Modern Typography)
 st.markdown("""
 <style>
+    @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&family=Inter:wght@300;400;500;600;700;800&display=swap');
+
     /* Main Background and Text */
-    .stApp {
+    html, body, [class*="css"], .stApp {
+        font-family: 'Outfit', 'Inter', sans-serif !important;
         background-color: #0f172a;
         color: #f8fafc;
     }
@@ -38,69 +41,140 @@ st.markdown("""
     
     /* Custom Card Design */
     .glass-card {
-        background: rgba(30, 41, 59, 0.7);
+        background: rgba(30, 41, 59, 0.6);
         border-radius: 12px;
         padding: 24px;
-        border: 1px solid rgba(255, 255, 255, 0.08);
-        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.4);
-        backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.06);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.3);
+        backdrop-filter: blur(8px);
         margin-bottom: 20px;
+        transition: transform 0.3s ease, border-color 0.3s ease;
+    }
+    
+    .glass-card:hover {
+        border-color: rgba(96, 165, 250, 0.2);
+        transform: translateY(-2px);
     }
     
     /* Metric styling */
     .metric-value {
-        font-size: 2.2rem;
-        font-weight: 700;
+        font-size: 2.4rem;
+        font-weight: 800;
         background: linear-gradient(135deg, #38bdf8, #818cf8);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         margin: 5px 0;
     }
     .metric-label {
-        font-size: 0.9rem;
+        font-size: 0.85rem;
         color: #94a3b8;
         text-transform: uppercase;
         letter-spacing: 0.1em;
+        font-weight: 600;
     }
     
     /* Real-time diagnostics styling */
     .alert-card-normal {
-        background: rgba(16, 185, 129, 0.15);
-        border: 1px solid rgba(16, 185, 129, 0.4);
-        border-radius: 8px;
-        padding: 16px;
+        background: rgba(16, 185, 129, 0.1);
+        border: 1px solid rgba(16, 185, 129, 0.3);
+        border-radius: 12px;
+        padding: 24px;
         margin-top: 15px;
+        box-shadow: 0 4px 20px rgba(16, 185, 129, 0.1);
     }
     
     .alert-card-noise {
-        background: rgba(239, 68, 68, 0.15);
-        border: 1px solid rgba(239, 68, 68, 0.4);
-        border-radius: 8px;
-        padding: 16px;
+        background: rgba(239, 68, 68, 0.1);
+        border: 1px solid rgba(239, 68, 68, 0.3);
+        border-radius: 12px;
+        padding: 24px;
         margin-top: 15px;
+        box-shadow: 0 4px 20px rgba(239, 68, 68, 0.1);
     }
     
     .alert-card-drift {
-        background: rgba(245, 158, 11, 0.2);
-        border: 2px dashed rgba(245, 158, 11, 0.7);
-        border-radius: 8px;
-        padding: 20px;
+        background: rgba(245, 158, 11, 0.12);
+        border: 2px dashed rgba(245, 158, 11, 0.5);
+        border-radius: 12px;
+        padding: 24px;
         margin-top: 15px;
+        box-shadow: 0 4px 20px rgba(245, 158, 11, 0.1);
     }
     
     /* Custom Headers */
-    h1, h2, h3 {
+    h1, h2, h3, h4 {
         color: #f8fafc !important;
-        font-family: 'Inter', sans-serif;
+        font-weight: 700 !important;
     }
     
     .main-title {
-        font-size: 2.5rem;
+        font-size: 2.6rem;
         font-weight: 800;
-        background: linear-gradient(135deg, #60a5fa, #c084fc);
+        background: linear-gradient(135deg, #38bdf8, #818cf8, #c084fc);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
-        margin-bottom: 25px;
+        margin-bottom: 5px;
+    }
+
+    /* Style all top navigation buttons */
+    button[aria-label*="Dashboard Overview"],
+    button[aria-label*="Repair Log Inspector"],
+    button[aria-label*="Real-time Diagnosis"],
+    button[aria-label*="Drift Simulation"] {
+        border-radius: 12px !important;
+        padding: 10px 16px !important;
+        font-weight: 600 !important;
+        font-size: 0.95rem !important;
+        transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1) !important;
+        border: 1px solid rgba(255, 255, 255, 0.08) !important;
+        height: 52px !important;
+        display: flex !important;
+        align-items: center !important;
+        justify-content: center !important;
+    }
+
+    /* Inactive button style (Secondary) */
+    button[aria-label*="Dashboard Overview"][data-testid="stBaseButton-secondary"],
+    button[aria-label*="Repair Log Inspector"][data-testid="stBaseButton-secondary"],
+    button[aria-label*="Real-time Diagnosis"][data-testid="stBaseButton-secondary"],
+    button[aria-label*="Drift Simulation"][data-testid="stBaseButton-secondary"] {
+        background-color: rgba(30, 41, 59, 0.4) !important;
+        color: #94a3b8 !important;
+    }
+
+    /* Inactive Hover state */
+    button[aria-label*="Dashboard Overview"][data-testid="stBaseButton-secondary"]:hover,
+    button[aria-label*="Repair Log Inspector"][data-testid="stBaseButton-secondary"]:hover,
+    button[aria-label*="Real-time Diagnosis"][data-testid="stBaseButton-secondary"]:hover,
+    button[aria-label*="Drift Simulation"][data-testid="stBaseButton-secondary"]:hover {
+        background: rgba(56, 189, 248, 0.1) !important;
+        border-color: rgba(56, 189, 248, 0.4) !important;
+        color: #38bdf8 !important;
+        box-shadow: 0 4px 20px rgba(56, 189, 248, 0.2) !important;
+        transform: translateY(-2px);
+    }
+
+    /* Active button style (Primary) */
+    button[aria-label*="Dashboard Overview"][data-testid="stBaseButton-primary"],
+    button[aria-label*="Repair Log Inspector"][data-testid="stBaseButton-primary"],
+    button[aria-label*="Real-time Diagnosis"][data-testid="stBaseButton-primary"],
+    button[aria-label*="Drift Simulation"][data-testid="stBaseButton-primary"] {
+        background: linear-gradient(135deg, rgba(56, 189, 248, 0.2), rgba(129, 140, 248, 0.2)) !important;
+        border-color: #38bdf8 !important;
+        color: #ffffff !important;
+        box-shadow: 0 0 20px rgba(56, 189, 248, 0.35), inset 0 0 8px rgba(56, 189, 248, 0.1) !important;
+        font-weight: 700 !important;
+    }
+
+    /* Active Hover state */
+    button[aria-label*="Dashboard Overview"][data-testid="stBaseButton-primary"]:hover,
+    button[aria-label*="Repair Log Inspector"][data-testid="stBaseButton-primary"]:hover,
+    button[aria-label*="Real-time Diagnosis"][data-testid="stBaseButton-primary"]:hover,
+    button[aria-label*="Drift Simulation"][data-testid="stBaseButton-primary"]:hover {
+        background: linear-gradient(135deg, rgba(56, 189, 248, 0.25), rgba(129, 140, 248, 0.25)) !important;
+        border-color: #38bdf8 !important;
+        box-shadow: 0 0 25px rgba(56, 189, 248, 0.45) !important;
+        transform: translateY(-2px);
     }
 </style>
 """, unsafe_allow_html=True)
@@ -226,26 +300,61 @@ unique_clusters = sorted(df_clustered['cluster_id'].unique())
 cluster_meta = get_cluster_metadata(df_clustered, unique_clusters)
 
 # -------------------------------------------------------------
-# 6. Streamlit Layout & Sidebar
+# 6. Streamlit Layout & Navigation
 # -------------------------------------------------------------
-st.sidebar.markdown("<h2 style='text-align: center;'>⚡ Error Detector</h2>", unsafe_allow_html=True)
-st.sidebar.markdown("---")
+# Initialize session state for app mode
+if "app_mode" not in st.session_state:
+    st.session_state.app_mode = "📊 Dashboard Overview"
 
-app_mode = st.sidebar.radio(
-    "Select Workspace Section",
-    ["📊 Dashboard Overview", "🔍 Repair Log Inspector", "🧠 Real-time Diagnosis", "🚨 Drift Simulation"]
-)
+# Collapsed sidebar for secondary configuration/details
+with st.sidebar:
+    st.markdown("### ⚙️ Engine Diagnostics")
+    st.markdown("""
+    **Model Configuration**:
+    - Vectorizer: **TF-IDF (1, 2) n-grams**
+    - Clusterer: **HDBSCAN**
+    - Keyword Engine: **YAKE**
+    ---
+    **System Status**:
+    - Backend: **Python 3.13**
+    - Scikit-Learn: **1.8.0**
+    """)
 
-st.sidebar.markdown("---")
-st.sidebar.markdown("""
-**Model Configuration**:
-- Vectorizer: **TF-IDF (1, 2) n-grams**
-- Clusterer: **HDBSCAN**
-- Keyword Engine: **YAKE**
-""")
+# Header area with Title, Subtitle, and Model Configuration
+h_col1, h_col2 = st.columns([3, 1])
+with h_col1:
+    st.markdown("<div class='main-title'>⚡ Drift Radar</div>", unsafe_allow_html=True)
+    st.markdown("<div style='color: #94a3b8; margin-top: -5px; margin-bottom: 20px; font-size: 1.15rem; font-weight: 500;'>Industrial Equipment Failure & Text Analysis Hub</div>", unsafe_allow_html=True)
+with h_col2:
+    st.markdown("""
+    <div style='background: rgba(30, 41, 59, 0.4); border: 1px solid rgba(255, 255, 255, 0.05); padding: 12px 16px; border-radius: 12px; text-align: right; box-shadow: 0 4px 15px rgba(0,0,0,0.15); backdrop-filter: blur(5px);'>
+        <div style='font-size: 0.75rem; color: #94a3b8; text-transform: uppercase; letter-spacing: 0.05em; font-weight: 600;'>Active Engine</div>
+        <div style='font-size: 0.95rem; font-weight: 700; color: #38bdf8; margin-top: 2px;'>HDBSCAN + YAKE</div>
+    </div>
+    """, unsafe_allow_html=True)
 
-# Main title
-st.markdown("<div class='main-title'>Industrial Equipment Failure Detection Hub</div>", unsafe_allow_html=True)
+# Top Navigation Bar (Horizontal Columns)
+nav_cols = st.columns(4)
+nav_options = [
+    "📊 Dashboard Overview",
+    "🔍 Repair Log Inspector",
+    "🧠 Real-time Diagnosis",
+    "🚨 Drift Simulation"
+]
+
+for i, option in enumerate(nav_options):
+    with nav_cols[i]:
+        is_active = (st.session_state.app_mode == option)
+        btn_type = "primary" if is_active else "secondary"
+        if st.button(option, key=f"nav_btn_{i}", use_container_width=True, type=btn_type):
+            st.session_state.app_mode = option
+            st.rerun()
+
+# Divider
+st.markdown("<div style='margin: 15px 0 25px 0; border-bottom: 1px solid rgba(255, 255, 255, 0.05);'></div>", unsafe_allow_html=True)
+
+# Read active mode from session state
+app_mode = st.session_state.app_mode
 
 # -------------------------------------------------------------
 # Tab 1: Dashboard Overview
