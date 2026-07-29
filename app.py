@@ -176,6 +176,93 @@ st.markdown("""
         box-shadow: 0 0 25px rgba(56, 189, 248, 0.45) !important;
         transform: translateY(-2px);
     }
+
+    /* Sidebar Header */
+    .sidebar-header {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        padding: 10px 15px;
+        background: rgba(16, 185, 129, 0.1);
+        border: 1px solid rgba(16, 185, 129, 0.2);
+        border-radius: 8px;
+        margin-bottom: 20px;
+    }
+
+    .pulsing-dot {
+        width: 8px;
+        height: 8px;
+        background-color: #10b981;
+        border-radius: 50%;
+        box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+        animation: pulse 1.5s infinite;
+    }
+
+    @keyframes pulse {
+        0% {
+            transform: scale(0.95);
+            box-shadow: 0 0 0 0 rgba(16, 185, 129, 0.7);
+        }
+        70% {
+            transform: scale(1);
+            box-shadow: 0 0 0 6px rgba(16, 185, 129, 0);
+        }
+        100% {
+            transform: scale(0.95);
+            box-shadow: 0 0 0 0 rgba(16, 185, 129, 0);
+        }
+    }
+
+    .status-text {
+        font-size: 0.85rem;
+        font-weight: 600;
+        color: #10b981;
+        text-transform: uppercase;
+        letter-spacing: 0.05em;
+    }
+
+    /* Sidebar Cards */
+    .sidebar-card {
+        background: rgba(30, 41, 59, 0.5) !important;
+        border: 1px solid rgba(255, 255, 255, 0.05) !important;
+        border-radius: 12px !important;
+        padding: 16px !important;
+        margin-bottom: 15px !important;
+        box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15) !important;
+    }
+
+    .sidebar-card-title {
+        font-size: 0.9rem !important;
+        font-weight: 700 !important;
+        color: #f8fafc !important;
+        margin-bottom: 12px !important;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.05) !important;
+        padding-bottom: 6px !important;
+        display: flex !important;
+        align-items: center !important;
+        gap: 6px !important;
+    }
+
+    .spec-row {
+        display: flex !important;
+        justify-content: space-between !important;
+        font-size: 0.8rem !important;
+        padding: 4px 0 !important;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.02) !important;
+    }
+
+    .spec-row:last-child {
+        border-bottom: none !important;
+    }
+
+    .spec-label {
+        color: #94a3b8 !important;
+    }
+
+    .spec-value {
+        color: #38bdf8 !important;
+        font-weight: 600 !important;
+    }
 </style>
 """, unsafe_allow_html=True)
 
@@ -236,7 +323,7 @@ def load_or_generate_data():
 # 4. Model Caching & Vectorization
 # -------------------------------------------------------------
 @st.cache_resource
-def fit_models(df):
+def fit_models(df, min_cluster_size=10, min_samples=2):
     # TF-IDF Vectorizer
     vectorizer = TfidfVectorizer(
         stop_words='english',
@@ -247,8 +334,8 @@ def fit_models(df):
     
     # HDBSCAN Clusterer
     clusterer = hdbscan.HDBSCAN(
-        min_cluster_size=10,
-        min_samples=2,
+        min_cluster_size=min_cluster_size,
+        min_samples=min_samples,
         prediction_data=True,
         metric='euclidean',
         cluster_selection_method='eom'
@@ -262,9 +349,65 @@ def fit_models(df):
     
     return vectorizer, clusterer, cluster_labels, pca, pca_coords
 
-# Load base data and run model pipeline
+# Load base data
 df_base = load_or_generate_data()
-vectorizer, clusterer, cluster_labels, pca, pca_coords = fit_models(df_base)
+
+# -------------------------------------------------------------
+# 5. Sidebar Model Tuning & Specifications
+# -------------------------------------------------------------
+with st.sidebar:
+    # Pulsing Green Dot + Online Status
+    st.markdown("""
+    <div class="sidebar-header">
+        <span class="pulsing-dot"></span>
+        <span class="status-text">Engine Online</span>
+    </div>
+    """, unsafe_allow_html=True)
+    
+    st.markdown("### ⚙️ Engine Diagnostics")
+    st.write("Tune model clustering hyperparameters below to re-cluster failure logs in real-time.")
+    
+    min_cluster_size = st.slider(
+        "Min Cluster Size", 
+        min_value=2, 
+        max_value=50, 
+        value=10, 
+        step=1, 
+        help="The minimum size of a group to be considered a cluster."
+    )
+    min_samples = st.slider(
+        "Min Samples", 
+        min_value=1, 
+        max_value=10, 
+        value=2, 
+        step=1, 
+        help="The number of samples in a neighborhood for a point to be considered a core point."
+    )
+    
+    # Model Properties & System Specs
+    st.markdown("""
+    <div class="sidebar-card">
+        <div class="sidebar-card-title">🤖 Model Properties</div>
+        <div class="spec-row"><span class="spec-label">Vectorizer</span><span class="spec-value">TF-IDF (1,2)</span></div>
+        <div class="spec-row"><span class="spec-label">Metric</span><span class="spec-value">Euclidean</span></div>
+        <div class="spec-row"><span class="spec-label">Selection</span><span class="spec-value">EOM</span></div>
+    </div>
+    <div class="sidebar-card">
+        <div class="sidebar-card-title">🖥️ System Specs</div>
+        <div class="spec-row"><span class="spec-label">Python</span><span class="spec-value">3.13</span></div>
+        <div class="spec-row"><span class="spec-label">Scikit-Learn</span><span class="spec-value">1.8.0</span></div>
+        <div class="spec-row"><span class="spec-label">Streamlit</span><span class="spec-value">1.49.1</span></div>
+    </div>
+    """, unsafe_allow_html=True)
+    
+    # Clear Cache button
+    if st.button("Reset Resource Cache", use_container_width=True):
+        st.cache_resource.clear()
+        st.cache_data.clear()
+        st.rerun()
+
+# Run model pipeline with slider values
+vectorizer, clusterer, cluster_labels, pca, pca_coords = fit_models(df_base, min_cluster_size, min_samples)
 
 # Create copy of dataframe and assign cluster labels
 df_clustered = df_base.copy()
@@ -276,7 +419,7 @@ n_clusters = len(set(cluster_labels)) - (1 if -1 in cluster_labels else 0)
 n_noise = list(cluster_labels).count(-1)
 
 # -------------------------------------------------------------
-# 5. YAKE Keyword Extractor & Summarizer
+# YAKE Keyword Extractor & Summarizer
 # -------------------------------------------------------------
 @st.cache_resource
 def get_keyword_extractor():
@@ -305,20 +448,6 @@ cluster_meta = get_cluster_metadata(df_clustered, unique_clusters)
 # Initialize session state for app mode
 if "app_mode" not in st.session_state:
     st.session_state.app_mode = "📊 Dashboard Overview"
-
-# Collapsed sidebar for secondary configuration/details
-with st.sidebar:
-    st.markdown("### ⚙️ Engine Diagnostics")
-    st.markdown("""
-    **Model Configuration**:
-    - Vectorizer: **TF-IDF (1, 2) n-grams**
-    - Clusterer: **HDBSCAN**
-    - Keyword Engine: **YAKE**
-    ---
-    **System Status**:
-    - Backend: **Python 3.13**
-    - Scikit-Learn: **1.8.0**
-    """)
 
 # Header area with Title, Subtitle, and Model Configuration
 h_col1, h_col2 = st.columns([3, 1])
