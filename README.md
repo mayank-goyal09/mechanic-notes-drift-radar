@@ -2,6 +2,8 @@
 
 # ⚡ Drift Radar — Industrial Equipment Failure & Text Analysis Hub
 
+**Deployed App:** [mechanic-notes-drift-radar-project.streamlit.app](https://mechanic-notes-drift-radar-project.streamlit.app/)
+
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Outfit&weight=700&size=32&duration=3500&pause=1000&color=38BDF8&center=true&vCenter=true&width=900&height=50&lines=Industrial+Equipment+Failure+Analysis+🏭;Density-Based+NLP+Log+Clustering+🧠;Real-Time+Data+Drift+Detection+🚨)](https://git.io/typing-svg)
 
 ![Python](https://img.shields.io/badge/Python-3.13%2B-3776AB?style=for-the-badge&logo=python&logoColor=white)
@@ -13,7 +15,7 @@
 
 <br/>
 
-[![🚀 Live Demo](https://img.shields.io/badge/🚀_LIVE_DEMO-Drift_Radar_Dashboard-38bdf8?style=for-the-badge&labelColor=0f172a)](https://drift-radar.streamlit.app/)
+[![🚀 Live Demo](https://img.shields.io/badge/🚀_LIVE_DEMO-Drift_Radar_Dashboard-38bdf8?style=for-the-badge&labelColor=0f172a)](https://mechanic-notes-drift-radar-project.streamlit.app/)
 [![GitHub Stars](https://img.shields.io/github/stars/mayank-goyal09/mechanic-notes-drift-radar?style=for-the-badge&color=ffd700)](https://github.com/mayank-goyal09/mechanic-notes-drift-radar/stargazers)
 [![GitHub Forks](https://img.shields.io/github/forks/mayank-goyal09/mechanic-notes-drift-radar?style=for-the-badge&color=87ceeb)](https://github.com/mayank-goyal09/mechanic-notes-drift-radar/network)
 
