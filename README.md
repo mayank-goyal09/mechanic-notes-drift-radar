@@ -2,7 +2,7 @@
 
 # ⚡ Drift Radar — Industrial Equipment Failure & Text Analysis Hub
 
-**Deployed App:** [mechanic-notes-drift-radar-project.streamlit.app](https://mechanic-notes-drift-radar-project.streamlit.app/)
+**Deployed App:** [drift-radar.app](https://mechanic-notes-drift-radar-project.streamlit.app/)
 
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Outfit&weight=700&size=32&duration=3500&pause=1000&color=38BDF8&center=true&vCenter=true&width=900&height=50&lines=Industrial+Equipment+Failure+Analysis+🏭;Density-Based+NLP+Log+Clustering+🧠;Real-Time+Data+Drift+Detection+🚨)](https://git.io/typing-svg)
 
@@ -223,7 +223,7 @@ streamlit run app.py
 
 [![GitHub](https://img.shields.io/badge/GitHub-mayank--goyal09-181717?style=for-the-badge&logo=github)](https://github.com/mayank-goyal09)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Mayank_Goyal-0077B5?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/mayank-goyal-4b8756363/)
-[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Site-38bdf8?style=for-the-badge&logo=googlechrome&logoColor=white)](https://mayank-portfolio-delta.vercel.app/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit_Site-38bdf8?style=for-the-badge&logo=googlechrome&logoColor=white)](https://mayank-goyal09.github.io/)
 
 **Mayank Goyal**  
 📊 Data Analyst | 🧠 NLP Enthusiast | 🏭 Predictive Maintenance Specialist
